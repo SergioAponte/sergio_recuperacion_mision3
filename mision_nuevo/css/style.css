@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.general{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.libre{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(204, 21, 21);
+}
+
+.contenido{
+    width: 85%;
+    height: 90%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+
+}
+.arriba{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.barra_navegacion{
+    height: 10%;
+    width: 100%;
+}
+.contenedor_tabla{
+    height: 80%;
+    width: 100%;
+}
+.tabla{
+    width: 100%;
+
+}
+.navegacion{
+    height: 30px;
+    width: 300px;
+    border-radius: 7px;
+    border: 1px solid;
+}

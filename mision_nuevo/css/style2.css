@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.general{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.libre{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(204, 21, 21);
+}
+.contenido{
+    width: 85%;
+    height: 90%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.principal{    
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_atras{
+    height: 40px;
+    width: 40px;
+}
+.formulario{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.parte1{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.parte2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.parte3{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parte4{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_enviar{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
